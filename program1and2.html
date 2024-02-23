@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>program1</title>
+        <style>
+            p{
+                font-family: Cambria;
+            }
+            body,html{
+                height: 100%;
+            }
+            body{
+                background-image: url("white-cloud-blue-sky.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .heading{
+                font-family: Cambria;
+                font-size: 40px;
+                font-weight: 600;
+                color: rgb(255, 255, 255);
+                text-shadow: 3px 3px 3px rgb(69, 70, 69);
+                text-align: center;
+                margin-bottom: 20px;
+                margin-top: 9px;
+            }
+            .section{
+                 margin-bottom: 40px;
+            }
+            .pic{
+                float: left;
+                width: 110px;
+                margin-right: 50px;
+            }
+            .ordered-list{
+                color: rgb(25, 2, 2);
+                font-size: 30px;
+                margin-bottom: 10px; 
+                text-decoration-line: underline;
+                text-decoration-style: wavy; 
+                text-decoration-thickness: 1.5px; 
+            }
+            .disc-list{
+                line-height: 25px;
+                color: rgb(0, 50, 8);
+                font-size: 21px;
+                list-style-type: disc;  
+            }
+            .number-list{
+                line-height: 25px;
+                color: rgb(0, 50, 8);
+                font-size: 21px;   
+            }
+            a:link{
+                text-decoration: none;
+                color: rgb(24, 146, 151);
+            }
+            a:hover{
+                color: rgb(6, 6, 87);
+                text-decoration: underline;
+            }
+            a:active{
+                text-decoration: underline;
+                color: blueviolet;
+            }
+            a:visited{
+                text-decoration: none;
+                color: rgb(24, 146, 151);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background"></div>
+        <p  class="heading">MY FAVOURITE SITES</p>
+        <ol type="A">
+            <div class="section">
+            <img class="pic" src="car.png" alt="car pic">    
+            <li class="ordered-list">Favourite Car Sites</li>
+            <ul class="disc-list" >
+                <li>CarTrade</li>
+                <li>Spinny</li>
+                <li>Popular Maruti</li>
+            </ul>
+            </div>
+            <div class="section">
+            <img class="pic" src="sign.png" alt="sign board pic">     
+            <li class="ordered-list">Useful Websites</li>
+                <ol class="number-list" type="1">
+                    <li>Best car accessories</li>
+                    <li>Essential features</li>
+                    <li>Sell your car online</li>
+                </ol>
+            </div>  
+            <div class="section"> 
+            <img class="pic" src="car.png" alt="car pic">     
+            <li class="ordered-list">Favourite Car links</li>
+                <ul class="disc-list">
+                    <li><a href="https://www.cartrade.com/">CarTrades</a></li>
+                    <li><a href="https://www.spinny.com/">Spinny</a></li>
+                    <li><a href="https://www.popularmaruti.com/">Popular Maruti</a></li>
+                </ul>
+            </div> 
+
+            <div class="section">
+            <img class="pic" src="sign.png" alt="sign board pic">         
+           <li class="ordered-list">Useful Websites links</li>
+                <ol class="number-list" type="1" >
+                    <li><a href="https://www.buzzfeed.com/jonathanmazzei/32-car-accessories-that-are-so-practical-youll-wonder-how">Car accessories</a></li>
+                    <li><a href="https://gomechanic.in/blog/essentials-car-features/">Car features</a></li>
+                    <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjUprKu67SEAxUwzTwCHb9NCc4YABAAGgJzZg&ase=2&gclid=CjwKCAiA8sauBhB3EiwAruTRJsj8PJNgbfBIiKvnyZWDuIkn7WGHwfLehXkBf31I4AtXLoHZK5ravxoC4tYQAvD_BwE&ohost=www.google.com&cid=CAESVeD2SGz5dLsXz3vgUrsXfxI3BzrAhd4qkpC6B5Bfi93k2GhX9_9-_zQM2DKYZ9LBMHNy4BRwMKB_V3NgXx08l1tWonLD5eh0gXjhD-jboW34J0rnuDQ&sig=AOD64_3Bt5z3ykvk8m9z3D9bw5rsyvmkDw&q&nis=4&adurl&ved=2ahUKEwii3Kyu67SEAxXqbmwGHXxwCSoQ0Qx6BAgNEAE">Sell your car online</a></li>
+                </ol> 
+            </div>       
+        </ol>
+        
+    </body>
+</html>
